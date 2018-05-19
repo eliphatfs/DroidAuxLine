@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+	<LinearLayout android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    android:orientation="horizontal" >
+	    <Spinner
+	        android:id="@+id/spinnerSX"
+	        android:layout_width="0dip"
+	        android:layout_height="wrap_content"
+	        android:layout_weight="1"
+	        android:entries="@array/spinner_pivot_x" />
+	
+	    <EditText
+	        android:id="@+id/numSX"
+	        android:layout_width="0dip"
+	        android:layout_height="wrap_content"
+	        android:layout_weight="1"
+	        android:inputType="numberSigned"
+	        android:text="0" >
+	
+	        <requestFocus />
+	    </EditText>
+	
+	    <Spinner
+	        android:id="@+id/spinnerSY"
+	        android:layout_width="0dip"
+	        android:layout_height="wrap_content"
+	        android:layout_weight="1"
+	        android:entries="@array/spinner_pivot_y" />
+	
+	    <EditText
+	        android:id="@+id/numSY"
+	        android:layout_width="0dip"
+	        android:layout_height="wrap_content"
+	        android:layout_weight="1"
+	        android:inputType="numberSigned"
+	        android:text="0" />
+	
+	    <Button
+	        android:id="@+id/buttonAdd"
+	        style="?android:attr/buttonStyleSmall"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:text="+" />
+	</LinearLayout>
+	<LinearLayout android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    android:orientation="horizontal" >
+	    <Spinner
+	        android:id="@+id/spinnerEX"
+	        android:layout_width="0dip"
+	        android:layout_height="wrap_content"
+	        android:layout_weight="1"
+	        android:entries="@array/spinner_pivot_x" />
+	
+	    <EditText
+	        android:id="@+id/numEX"
+	        android:layout_width="0dip"
+	        android:layout_height="wrap_content"
+	        android:layout_weight="1"
+	        android:inputType="numberSigned"
+	        android:text="0" >
+	
+	        <requestFocus />
+	    </EditText>
+	
+	    <Spinner
+	        android:id="@+id/spinnerEY"
+	        android:layout_width="0dip"
+	        android:layout_height="wrap_content"
+	        android:layout_weight="1"
+	        android:entries="@array/spinner_pivot_y" />
+	
+	    <EditText
+	        android:id="@+id/numEY"
+	        android:layout_width="0dip"
+	        android:layout_height="wrap_content"
+	        android:layout_weight="1"
+	        android:inputType="numberSigned"
+	        android:text="0" />
+	
+	    <Button
+	        android:id="@+id/buttonDel"
+	        style="?android:attr/buttonStyleSmall"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:text="-" />
+	</LinearLayout>
+	<LinearLayout android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    android:orientation="horizontal" >
+
+		<EditText
+		    android:id="@+id/editColorR"
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+		    android:layout_weight="1"
+		    android:ems="10"
+		    android:inputType="number"
+		    android:text="0" />
+
+		<EditText
+		    android:id="@+id/editColorG"
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+		    android:layout_weight="1"
+		    android:ems="10"
+		    android:inputType="number"
+		    android:text="0" />
+
+		<EditText
+		    android:id="@+id/editColorB"
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+		    android:layout_weight="1"
+		    android:ems="10"
+		    android:inputType="number"
+		    android:text="0" />
+
+		<EditText
+		    android:id="@+id/editColorA"
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+		    android:layout_weight="1"
+		    android:ems="10"
+		    android:inputType="number"
+		    android:text="0" />
+
+	</LinearLayout>
+</LinearLayout>

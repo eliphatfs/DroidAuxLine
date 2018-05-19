@@ -3,5 +3,16 @@
 
     <string name="hello">Hello World, MainActivity!</string>
     <string name="app_name">Droid Aux Line</string>
-
+    
+	<string-array name="spinner_pivot_x">
+        <item>Center</item>
+        <item>Left</item>
+        <item>Right</item>    
+    </string-array>
+    
+	<string-array name="spinner_pivot_y">
+        <item>Center</item>
+        <item>Bottom</item>
+        <item>Top</item>    
+    </string-array>
 </resources>
